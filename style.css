@@ -1,0 +1,96 @@
+html{
+	min-height: 100vh;
+	/* position: relative; */
+}
+body{
+	background-image: url("images-layout/background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	color: #b9b7b4;
+	min-height: 100vh;
+}
+h1, h2{
+	font-family: 'Arcane Nine';
+}
+
+/* Header */
+
+header .logo{
+	margin: 0 auto;
+	/* width: 50%; */
+	align-items: center;
+	/* height: 1000px; */
+	/* position: fixed; */
+}
+header .logo img{
+	margin: 20px auto;
+	width: 720px;
+	display: block;
+	/* width:20%;
+	top: 10px;
+	left: 560px;
+	position: absolute; */
+}
+
+header .navbar ul{
+	/* background-color: yellow; */
+	list-style: none;
+	
+	display: flex;
+	justify-content: space-between;
+	font-size: 48px;
+	width: 50%;
+	margin: auto;
+	font-family: 'Arcane Nine';
+}
+header .navbar ul li{
+	display: block;
+	left: auto;
+	right: auto;
+}
+header .navbar a{
+	text-decoration: none;
+	color: #312624;
+	
+}
+
+.wrapper{
+	border-image: url("images-layout/wrapper-panel.png") 142 ;
+	/* border-width: 120px;  */
+	border-width: 120px 120px 152px 120px;
+	border-style: solid; 
+	padding: 0px;
+	width: 620px;
+	margin: 0 auto;
+	min-width: 200px;
+	max-width: 100vw;
+	/* width: 100px; */
+}
+
+.wrapper .content{
+	background-color: #1f1a18;
+	border: 1px solid #1f1a18;
+	width: 118%;
+	position: relative;
+	left: -60px;
+}
+
+.wrapper .content h1,h2{
+	font-size:60px;
+	margin: 0 0;
+}
+
+.wrapper .content .about-me{
+	display: flex;
+}
+.wrapper .content .left{
+	/* float: left; */
+}
+.wrapper .content .right {
+	margin-left: 40px;
+}
+.wrapper .content .right img{
+	width: 250px;
+}
