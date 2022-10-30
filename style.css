@@ -202,7 +202,7 @@ h1, h2{
 .wrapper .content a {
 	color: rgb(216, 134, 57);
 }
-.wrapper .content{
+.wrapper .content p{
 	font-family: "Bolton", "Times New Roman";
 	font-size: 22px;
 	line-height: 22px;
