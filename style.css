@@ -15,10 +15,8 @@ body{
 	color: #b9b7b4;
 	min-height: 100vh;
 	margin: 0;
-	text-size-adjust: none;
 	/* font-family:Helvetica; */
 	/* padding: 0; */
-	
 }
 h1, h2{
 	font-family: 'Arcane-Nine';
@@ -26,6 +24,8 @@ h1, h2{
 @font-face{
 	font-family: "Bolton";
 	src: url("misc-assets/Bolton.ttf");
+	font-style: normal;
+	font-weight: normal;
 }
 @font-face{
 	font-family: "Arcane-Nine";
@@ -200,6 +200,7 @@ h1, h2{
 	/* font-family: Titania; */
 	font-family: "Bolton", "Titania";
 	font-size: 22px;
+	line-height: 22px;
 	letter-spacing: 1px;
 }
 
