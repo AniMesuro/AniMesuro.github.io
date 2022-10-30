@@ -15,6 +15,7 @@ body{
 	color: #b9b7b4;
 	min-height: 100vh;
 	margin: 0;
+	text-size-adjust: none;
 	/* font-family:Helvetica; */
 	/* padding: 0; */
 	
