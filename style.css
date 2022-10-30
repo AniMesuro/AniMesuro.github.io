@@ -7,7 +7,7 @@ html{
 	--background-image-color: #aea08ecf;
 }
 body{
-	background-image: url("images-layout/background32.png");
+	background-image: url("https://animesuro.github.io/images-layout/background32.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
