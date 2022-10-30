@@ -4,15 +4,15 @@ s currency u
 
 a pr_usd_sketch 5,10,15
 a pr_usd_lineart 6,12,18
-a pr_usd_flat_colors 7,21,28
-a pr_usd_full_drawing 10,30,40
-a pr_usd_full_painting 15,45,60
+a pr_usd_flat_colors 7,15,21
+a pr_usd_full_drawing 10,20,30
+a pr_usd_full_painting 15,30,45
 
 a pr_brl_sketch 18,36,54
 a pr_brl_lineart 21,42,63
 a pr_brl_flat_colors 25,50,75
-a pr_brl_full_drawing 35,105,140
-a pr_brl_full_painting 45,135,210
+a pr_brl_full_drawing 35,70,105
+a pr_brl_full_painting 45,90,135
 
 --
 

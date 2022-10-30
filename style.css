@@ -226,12 +226,7 @@ section{
 .wrapper .content .left-column{
 	min-width: 300px;
 	width: calc(100% - 260px);
-	/* float:left; */
 	font-size: 22px;
-	/* font-weight: lighter; */
-	/* font-stretch:extra-expanded; */
-	
-	/* font-variant: small-caps; */
 }
 @media screen and (max-width: 700px){
 	.wrapper .content .about-me{
@@ -246,11 +241,10 @@ section{
 	.navbar .nav-null-space{
 		width: 0px;
 	}
-}
-/* @media screen and (max-width: 600px){
-	.navbar .nav-null-space{
+	.wrapper .content .commission table tbody td{
+		padding-left: 0;
 	}
-} */
+}
 .wrapper .content .right-column {
 	margin-left: 0 auto;
 	object-fit: contain;
